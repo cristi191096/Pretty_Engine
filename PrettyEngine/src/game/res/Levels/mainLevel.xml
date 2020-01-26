@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene type="3D">
+    <Camera type="EditorCamera">
+        <Position>1.017722 43.052666 124.514709</Position>
+        <Projection>0.974279 0 0 0 0 1.73205 0 0 0 0 -1.002 -2.002 0 0 -1 1 </Projection>
+    </Camera>
+    <Entity name="Entity0" tag="DirectionalLight">
+        <Transform>
+            <Position>0.000000 0.000000 -18.750000</Position>
+            <Rotation type="EulerAngles">-0.671839 -0.726313 -0.145263</Rotation>
+            <Scale>1.000000 1.000000 1.000000</Scale>
+        </Transform>
+        <Light type="Directional">
+            <Direction>-0.671839 -0.726313 -0.145263</Direction>
+            <Ambient>0.200000 0.200000 0.200000</Ambient>
+            <Diffuse>1.000000 1.000000 1.000000</Diffuse>
+            <Specular>1.000000 1.000000 1.000000</Specular>
+        </Light>
+    </Entity>
+    <Entity name="Entity1" tag="Player1">
+        <Transform>
+            <Position>0.000000 10.000000 0.000000</Position>
+            <Rotation type="EulerAngles">0.000000 0.000000 0.000000</Rotation>
+            <Scale>1.000000 1.000000 1.000000</Scale>
+        </Transform>
+        <Model filePath="../PrettyEngine/src/game/res/Models/ahsoka/AhsokaTest1.obj">
+            <Material>
+                <Shader filePath="None">BLINPHONG</Shader>
+                <Diffuse>1.000000 1.000000 1.000000</Diffuse>
+                <Specular>1.000000 1.000000 1.000000</Specular>
+                <Emission>0.000000 0.000000 0.000000</Emission>
+                <Shininess>128</Shininess>
+            </Material>
+        </Model>
+        <Rigidbody type="Dynamic">
+            <Density>0.000010</Density>
+            <Drag>1</Drag>
+        </Rigidbody>
+    </Entity>
+    <Entity name="Entity2" tag="Player2">
+        <Transform>
+            <Position>31.250000 10.000000 0.000000</Position>
+            <Rotation type="EulerAngles">0.000000 0.000000 0.000000</Rotation>
+            <Scale>1.000000 1.000000 1.000000</Scale>
+        </Transform>
+        <Model filePath="../PrettyEngine/src/game/res/Models/cyborg/cyborg.obj">
+            <Material>
+                <Shader filePath="None">BLINPHONG</Shader>
+                <Diffuse>1.000000 1.000000 1.000000</Diffuse>
+                <Specular>1.000000 1.000000 1.000000</Specular>
+                <Emission>0.000000 0.000000 0.000000</Emission>
+                <Shininess>128</Shininess>
+            </Material>
+        </Model>
+    </Entity>
+</Scene>

@@ -1,0 +1,342 @@
+#
+#
+#
+
+newmtl Belt Mesh_Belt1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.031400 0.031400 0.035300
+Ns 24.409500
+map_Kd Belt1_Flattened_Diffuse.png
+
+newmtl Body Mesh_Skin
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.027500 0.027500 0.027500
+Ns 27.250299
+map_Kd Skin_Flattened_Diffuse.png
+
+newmtl Boots Mesh_Boots1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.066700 0.066700 0.070600
+Ns 24.409500
+map_Kd Boots1_Flattened_Diffuse.png
+
+newmtl Box002 Mesh_Belt1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.031400 0.031400 0.035300
+Ns 24.409500
+map_Kd Belt1_Flattened_Diffuse.png
+
+newmtl Box003 Mesh_Belt2
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.082400 0.082400 0.082400
+Ns 24.409500
+map_Kd Belt2_Flattened_Diffuse.png
+
+newmtl Box004 Mesh_Belt4
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 24.409500
+map_Kd Belt4_Flattened_Diffuse.png
+
+newmtl Box005 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Box006 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Box007 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Box008 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Box009 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Box010 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Colier Mesh_Neckles
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.682400 0.549000 0.176500
+Ks 0.000000 0.000000 0.000000
+Ns 24.409500
+
+newmtl Cone001 Mesh_Belt3
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.062700 0.066700 0.070600
+Ns 24.409500
+map_Kd Belt3_Flattened_Diffuse.png
+
+newmtl Cone002 Mesh_Belt3
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.062700 0.066700 0.070600
+Ns 24.409500
+map_Kd Belt3_Flattened_Diffuse.png
+
+newmtl Crown Mesh_Crown1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+map_Kd Crown1_Flattened_Diffuse.png
+
+newmtl Dress Mesh_Dress1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 24.409500
+map_Kd Dress1_Flattened_Diffuse.png
+
+newmtl EyeLashes Mesh_Eyes
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.200000 0.290000 0.320000
+Ns 47.310600
+map_Kd Eyes_Flattened_Diffuse.png
+
+newmtl EyeLashes001 Mesh_Eyes
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.200000 0.290000 0.320000
+Ns 47.310600
+map_Kd Eyes_Flattened_Diffuse.png
+
+newmtl Glove Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl Glove001 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl Head Mesh_Head1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.023500 0.039200 0.047100
+Ns 24.409500
+map_Kd Head1_Flattened_Diffuse.png
+
+newmtl LeftBracelet001 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl LeftBracelet002 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl LeftBracelet003 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl LeftBracelet004 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl LeftEye Mesh_Eyes
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.200000 0.290000 0.320000
+Ns 47.310600
+map_Kd Eyes_Flattened_Diffuse.png
+
+newmtl Object002 Mesh_UnderBracelet
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.082400 0.011800 0.015700
+Ks 0.000000 0.000000 0.000000
+Ns 24.409500
+
+newmtl Object003 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl Object004 Mesh_UnderBracelet
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.082400 0.011800 0.015700
+Ks 0.000000 0.000000 0.000000
+Ns 24.409500
+
+newmtl Object005 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl Pants Mesh_Pants1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 24.409500
+map_Kd Pants1_Flattened_Diffuse.png
+
+newmtl Plane005 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Plane006 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Plane007 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Plane008 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Plane009 Mesh_buttons
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.564700 0.458800 0.039200
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+
+newmtl Plane010 Mesh_CrownNoSmooth
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+map_Kd CrownNoSmooth_Flattened_Diffuse.png
+
+newmtl Plane011 Mesh_CrownNoSmooth
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.200000 0.290000 0.320000
+Ns 24.409500
+map_Kd CrownNoSmooth_Flattened_Diffuse.png
+
+newmtl RightBracelet002 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl RightBracelet003 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl RightBracelet004 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl RightBracelet01 Mesh_Bracelets
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.000000 0.000000 0.000000
+Ns 23.432699
+map_Kd Bracelets_Flattened_Diffuse.png
+
+newmtl RightEye Mesh_Eyes
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.760000 0.620000 0.520000
+Ks 0.200000 0.290000 0.320000
+Ns 47.310600
+map_Kd Eyes_Flattened_Diffuse.png
+

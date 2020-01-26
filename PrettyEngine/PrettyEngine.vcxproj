@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{83109781-6F73-2626-18F9-5EDC043BF2A8}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PrettyEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\Debug-windows-x86_64\PrettyEngine\</OutDir>
+    <IntDir>..\bin-int\Debug-windows-x86_64\PrettyEngine\</IntDir>
+    <TargetName>PrettyEngine</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\Release-windows-x86_64\PrettyEngine\</OutDir>
+    <IntDir>..\bin-int\Release-windows-x86_64\PrettyEngine\</IntDir>
+    <TargetName>PrettyEngine</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pepch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>PE_PLATFORM_WINDOWS;PE_BUILD_DLL;GLFW_INCLUDE_NONE;STB_IMAGE_IMPLEMENTATION;PE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src;thirdparty\spdlog\include;thirdparty\GLFW\include;thirdparty\Glad\include;thirdparty\ImGUI;thirdparty\glm;thirdparty\stb;thirdparty\Box2D;thirdparty\Assimp\include;thirdparty\TinyXML2\tinyxml2;thirdparty\NativeFileDialog\src\Include;thirdparty\FMOD\include;thirdparty\Enet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/MDd %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc141-mt.lib;IrrXML.lib;zlibstatic.lib;opengl32.lib;tinyxml2.lib;fmod64_vc.lib;fmodL64_vc.lib;fmodstudio64_vc.lib;fmodstudioL64_vc.lib;fsbank64_vc.lib;winmm.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>thirdparty\Assimp\bin\Release-windows-x86_64\Assimp;thirdparty\Assimp\lib\Release;thirdparty\TinyXML2\bin\Release-windows-x86_64\tinyxml;thirdparty\FMOD\bin\Release-windows-x86_64\FMOD;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pepch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>PE_PLATFORM_WINDOWS;PE_BUILD_DLL;GLFW_INCLUDE_NONE;STB_IMAGE_IMPLEMENTATION;PE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src;thirdparty\spdlog\include;thirdparty\GLFW\include;thirdparty\Glad\include;thirdparty\ImGUI;thirdparty\glm;thirdparty\stb;thirdparty\Box2D;thirdparty\Assimp\include;thirdparty\TinyXML2\tinyxml2;thirdparty\NativeFileDialog\src\Include;thirdparty\FMOD\include;thirdparty\Enet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalOptions>/MD %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>assimp-vc141-mt.lib;IrrXML.lib;zlibstatic.lib;opengl32.lib;tinyxml2.lib;fmod64_vc.lib;fmodL64_vc.lib;fmodstudio64_vc.lib;fmodstudioL64_vc.lib;fsbank64_vc.lib;winmm.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>thirdparty\Assimp\bin\Release-windows-x86_64\Assimp;thirdparty\Assimp\lib\Release;thirdparty\TinyXML2\bin\Release-windows-x86_64\tinyxml;thirdparty\FMOD\bin\Release-windows-x86_64\FMOD;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\engine\Networking\Client.h" />
+    <ClInclude Include="src\engine\Networking\NetworkContext.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLContext.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLCore.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLIndexBuffer.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLInput.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLInputCodes.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLRenderer.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLShader.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLShaderResources.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLTexture2D.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLTypes.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLVertexArray.h" />
+    <ClInclude Include="src\Platform\OpenGL\GLVertexBuffer.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="src\PrettyEngine.h" />
+    <ClInclude Include="src\Types.h" />
+    <ClInclude Include="src\Utilities\AssetImporter.h" />
+    <ClInclude Include="src\Utilities\Files.h" />
+    <ClInclude Include="src\Utilities\Imagery.h" />
+    <ClInclude Include="src\Utilities\Profiler.h" />
+    <ClInclude Include="src\Utilities\String.h" />
+    <ClInclude Include="src\editor\EditorLayer.h" />
+    <ClInclude Include="src\editor\imgui_stdlib.h" />
+    <ClInclude Include="src\engine\Audio\AudioChannel.h" />
+    <ClInclude Include="src\engine\Audio\AudioClip.h" />
+    <ClInclude Include="src\engine\Audio\AudioContext.h" />
+    <ClInclude Include="src\engine\Core\Application.h" />
+    <ClInclude Include="src\engine\Core\Context.h" />
+    <ClInclude Include="src\engine\Core\Core.h" />
+    <ClInclude Include="src\engine\Core\EntryPoint.h" />
+    <ClInclude Include="src\engine\Core\Layer.h" />
+    <ClInclude Include="src\engine\Core\LayerStack.h" />
+    <ClInclude Include="src\engine\Core\Log.h" />
+    <ClInclude Include="src\engine\Core\Scene.h" />
+    <ClInclude Include="src\engine\Core\Scene2D.h" />
+    <ClInclude Include="src\engine\Core\Scene3D.h" />
+    <ClInclude Include="src\engine\Core\Window.h" />
+    <ClInclude Include="src\engine\ECS\Components\AudioComponent.h" />
+    <ClInclude Include="src\engine\ECS\Components\Component.h" />
+    <ClInclude Include="src\engine\ECS\Components\Components.h" />
+    <ClInclude Include="src\engine\ECS\Components\LightComponent.h" />
+    <ClInclude Include="src\engine\ECS\Components\ModelComponent.h" />
+    <ClInclude Include="src\engine\ECS\Components\RigidbodyComponent.h" />
+    <ClInclude Include="src\engine\ECS\Components\TransformComponent.h" />
+    <ClInclude Include="src\engine\ECS\Entity.h" />
+    <ClInclude Include="src\engine\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\engine\Events\Event.h" />
+    <ClInclude Include="src\engine\Events\Input.h" />
+    <ClInclude Include="src\engine\Events\KeyEvent.h" />
+    <ClInclude Include="src\engine\Events\MouseEvent.h" />
+    <ClInclude Include="src\engine\Events\PlayerControllerEvent.h" />
+    <ClInclude Include="src\engine\Graphics\Buffers\BufferLayout.h" />
+    <ClInclude Include="src\engine\Graphics\Buffers\IndexBuffer.h" />
+    <ClInclude Include="src\engine\Graphics\Buffers\VertexArray.h" />
+    <ClInclude Include="src\engine\Graphics\Buffers\VertexBuffer.h" />
+    <ClInclude Include="src\engine\Graphics\Cameras\Camera.h" />
+    <ClInclude Include="src\engine\Graphics\Cameras\EditorCamera.h" />
+    <ClInclude Include="src\engine\Graphics\Cameras\FPSCamera.h" />
+    <ClInclude Include="src\engine\Graphics\Cameras\StaticCamera.h" />
+    <ClInclude Include="src\engine\Graphics\Group.h" />
+    <ClInclude Include="src\engine\Graphics\Light.h" />
+    <ClInclude Include="src\engine\Graphics\Material.h" />
+    <ClInclude Include="src\engine\Graphics\Mesh.h" />
+    <ClInclude Include="src\engine\Graphics\Model.h" />
+    <ClInclude Include="src\engine\Graphics\Renderable.h" />
+    <ClInclude Include="src\engine\Graphics\Renderable2D.h" />
+    <ClInclude Include="src\engine\Graphics\Renderer.h" />
+    <ClInclude Include="src\engine\Graphics\Renderer2D.h" />
+    <ClInclude Include="src\engine\Graphics\Renderer3D.h" />
+    <ClInclude Include="src\engine\Graphics\Shaders\Shader.h" />
+    <ClInclude Include="src\engine\Graphics\Shaders\ShaderLibrary.h" />
+    <ClInclude Include="src\engine\Graphics\Shaders\ShaderManager.h" />
+    <ClInclude Include="src\engine\Graphics\Shaders\ShaderResources.h" />
+    <ClInclude Include="src\engine\Graphics\Sprite.h" />
+    <ClInclude Include="src\engine\Graphics\Texture.h" />
+    <ClInclude Include="src\engine\Graphics\Texture2D.h" />
+    <ClInclude Include="src\engine\Layers\DebugLayer2D.h" />
+    <ClInclude Include="src\engine\Layers\DebugLayer3D.h" />
+    <ClInclude Include="src\engine\Layers\ImGuiLayer.h" />
+    <ClInclude Include="src\engine\Maths\MathsFunc.h" />
+    <ClInclude Include="src\engine\Maths\Matrix4.h" />
+    <ClInclude Include="src\engine\Maths\Quaternion.h" />
+    <ClInclude Include="src\engine\Maths\Vector2.h" />
+    <ClInclude Include="src\engine\Maths\Vector3.h" />
+    <ClInclude Include="src\engine\Maths\Vector4.h" />
+    <ClInclude Include="src\engine\Maths\maths.h" />
+    <ClInclude Include="src\engine\Physics\Body.h" />
+    <ClInclude Include="src\engine\Physics\DebugDraw.h" />
+    <ClInclude Include="src\engine\Physics\Physics.h" />
+    <ClInclude Include="src\engine\Physics\PhysicsContext.h" />
+    <ClInclude Include="src\game\GameApplication.h" />
+    <ClInclude Include="src\game\GameLayer.h" />
+    <ClInclude Include="src\pepch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\engine\Networking\Client.cpp" />
+    <ClCompile Include="src\engine\Networking\NetworkContext.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLContext.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLError.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLIndesxBuffer.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLInput.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLRenderer.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLShader.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLShaderResource.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLTexture2D.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLVertexArray.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\GLVertexBuffer.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
+    <ClCompile Include="src\Utilities\AssetImporter.cpp" />
+    <ClCompile Include="src\Utilities\Files.cpp" />
+    <ClCompile Include="src\Utilities\Imagery.cpp" />
+    <ClCompile Include="src\editor\EditorLayer.cpp" />
+    <ClCompile Include="src\editor\imgui_stdlib.cpp" />
+    <ClCompile Include="src\engine\Audio\AudioChannel.cpp" />
+    <ClCompile Include="src\engine\Audio\AudioClip.cpp" />
+    <ClCompile Include="src\engine\Audio\AudioContext.cpp" />
+    <ClCompile Include="src\engine\Core\Application.cpp" />
+    <ClCompile Include="src\engine\Core\Context.cpp" />
+    <ClCompile Include="src\engine\Core\Layer.cpp" />
+    <ClCompile Include="src\engine\Core\LayerStack.cpp" />
+    <ClCompile Include="src\engine\Core\Log.cpp" />
+    <ClCompile Include="src\engine\Core\Scene.cpp" />
+    <ClCompile Include="src\engine\Core\Scene2D.cpp" />
+    <ClCompile Include="src\engine\Core\Scene3D.cpp" />
+    <ClCompile Include="src\engine\ECS\Components\AudioComponent.cpp" />
+    <ClCompile Include="src\engine\ECS\Components\LightComponent.cpp" />
+    <ClCompile Include="src\engine\ECS\Components\ModelComponent.cpp" />
+    <ClCompile Include="src\engine\ECS\Components\RigidbodyComponent.cpp" />
+    <ClCompile Include="src\engine\ECS\Components\TransformComponent.cpp" />
+    <ClCompile Include="src\engine\ECS\Entity.cpp" />
+    <ClCompile Include="src\engine\Events\Input.cpp" />
+    <ClCompile Include="src\engine\Graphics\Buffers\BufferLayout.cpp" />
+    <ClCompile Include="src\engine\Graphics\Buffers\IndexBuffer.cpp" />
+    <ClCompile Include="src\engine\Graphics\Buffers\VertexArray.cpp" />
+    <ClCompile Include="src\engine\Graphics\Buffers\VertexBuffer.cpp" />
+    <ClCompile Include="src\engine\Graphics\Cameras\Camera.cpp" />
+    <ClCompile Include="src\engine\Graphics\Cameras\EditorCamera.cpp" />
+    <ClCompile Include="src\engine\Graphics\Cameras\FPSCamera.cpp" />
+    <ClCompile Include="src\engine\Graphics\Cameras\StaticCamera.cpp" />
+    <ClCompile Include="src\engine\Graphics\Group.cpp" />
+    <ClCompile Include="src\engine\Graphics\Light.cpp" />
+    <ClCompile Include="src\engine\Graphics\Material.cpp" />
+    <ClCompile Include="src\engine\Graphics\Mesh.cpp" />
+    <ClCompile Include="src\engine\Graphics\Model.cpp" />
+    <ClCompile Include="src\engine\Graphics\Renderable2D.cpp" />
+    <ClCompile Include="src\engine\Graphics\Renderer.cpp" />
+    <ClCompile Include="src\engine\Graphics\Renderer2D.cpp" />
+    <ClCompile Include="src\engine\Graphics\Renderer3D.cpp" />
+    <ClCompile Include="src\engine\Graphics\Shaders\Shader.cpp" />
+    <ClCompile Include="src\engine\Graphics\Shaders\ShaderLibrary.cpp" />
+    <ClCompile Include="src\engine\Graphics\Shaders\ShaderManager.cpp" />
+    <ClCompile Include="src\engine\Graphics\Shaders\ShaderResources.cpp" />
+    <ClCompile Include="src\engine\Graphics\Sprite.cpp" />
+    <ClCompile Include="src\engine\Graphics\Texture.cpp" />
+    <ClCompile Include="src\engine\Graphics\Texture2D.cpp" />
+    <ClCompile Include="src\engine\Layers\DebugLayer2D.cpp" />
+    <ClCompile Include="src\engine\Layers\DebugLayer3D.cpp" />
+    <ClCompile Include="src\engine\Layers\ImGuiBuild.cpp" />
+    <ClCompile Include="src\engine\Layers\ImGuiLayer.cpp" />
+    <ClCompile Include="src\engine\Maths\Matrix4.cpp" />
+    <ClCompile Include="src\engine\Maths\Quaternion.cpp" />
+    <ClCompile Include="src\engine\Maths\Vector2.cpp" />
+    <ClCompile Include="src\engine\Maths\Vector3.cpp" />
+    <ClCompile Include="src\engine\Maths\Vector4.cpp" />
+    <ClCompile Include="src\engine\Physics\Body.cpp" />
+    <ClCompile Include="src\engine\Physics\DebugDraw.cpp" />
+    <ClCompile Include="src\engine\Physics\PhysicsContext.cpp" />
+    <ClCompile Include="src\game\GameApplication.cpp" />
+    <ClCompile Include="src\game\GameLayer.cpp" />
+    <ClCompile Include="src\pepch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\Profiler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="thirdparty\GLFW\GLFW.vcxproj">
+      <Project>{154B857C-0182-860D-AA6E-6C109684020F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="thirdparty\Glad\Glad.vcxproj">
+      <Project>{BDD6857C-A90D-870D-52FA-6C103E10030F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="thirdparty\ImGUI\ImGui.vcxproj">
+      <Project>{C0FF640D-2C14-8DBE-F595-301E616989EF}</Project>
+    </ProjectReference>
+    <ProjectReference Include="thirdparty\Box2D\Box2D.vcxproj">
+      <Project>{A434E80C-1049-10BE-D9CA-B31D459E0CEF}</Project>
+    </ProjectReference>
+    <ProjectReference Include="thirdparty\Enet\Enet.vcxproj">
+      <Project>{11C7847C-FDFD-850D-A6EA-6B109200020F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="thirdparty\NativeFileDialog\NativeFileDialog.vcxproj">
+      <Project>{FCE1927B-E8DA-B1CD-110D-9752FD6491D9}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

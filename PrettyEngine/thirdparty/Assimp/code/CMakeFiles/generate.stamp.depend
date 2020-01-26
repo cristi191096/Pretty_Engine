@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/code/CMakeLists.txt
+F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/cmake-modules/FindRT.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake

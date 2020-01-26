@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\CMakeFiles\6004ff1382a72a31cedbdb1b5c9f17ad\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D0B24004-9A61-31B7-8E00-594DC7161EF4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

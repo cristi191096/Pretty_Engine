@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E9E876E9-6F05-3854-88BC-756C8443D1BE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>assimp_cmd</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">assimp_cmd.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">assimpd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">assimp_cmd.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">assimp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">assimp_cmd.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">assimp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">assimp_cmd.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">assimp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;EBUG:FULL;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;EBUG:FULL;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/Debug/assimp-vc141-mtd.lib" "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\assimp-vc141-mtd.lib;..\..\lib\Debug\zlibstaticd.lib;..\..\lib\Debug\IrrXMLd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/$(Configuration);F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/Debug/assimpd.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/Debug/assimpd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/Release/assimp-vc141-mt.lib" "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\assimp-vc141-mt.lib;..\..\lib\Release\zlibstatic.lib;..\..\lib\Release\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/$(Configuration);F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/Release/assimp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/Release/assimp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/MinSizeRel/assimp-vc141-mt.lib" "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\assimp-vc141-mt.lib;..\..\lib\MinSizeRel\zlibstatic.lib;..\..\lib\MinSizeRel\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/$(Configuration);F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/MinSizeRel/assimp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/MinSizeRel/assimp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/RelWithDebInfo/assimp-vc141-mt.lib" "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\assimp-vc141-mt.lib;..\..\lib\RelWithDebInfo\zlibstatic.lib;..\..\lib\RelWithDebInfo\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/$(Configuration);F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib;F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/RelWithDebInfo/assimp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/RelWithDebInfo/assimp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/tools/assimp_cmd/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\assimp_cmd.rc"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\CompareDump.cpp"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\ImageExtractor.cpp"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\Main.cpp"  />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\Main.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\resource.h" />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\WriteDumb.cpp"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\Info.cpp"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\tools\assimp_cmd\Export.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\ZERO_CHECK.vcxproj">
+      <Project>{35080779-B9A8-3B6D-83F4-5CC9AFB107A8}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{7DA71F12-8A06-300C-985E-DBB41F2E02DF}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\assimp.vcxproj">
+      <Project>{BDDD81ED-2545-3162-A262-0B3F673817D2}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{8D66DC31-8FA7-3353-B8E8-D9B77A67C67C}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

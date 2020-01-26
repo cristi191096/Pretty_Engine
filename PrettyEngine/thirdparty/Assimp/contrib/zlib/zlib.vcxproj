@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4C9550A-271B-3E20-BFC4-18527BD6C3DD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>zlib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zlib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zlibd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zlib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zlib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zlib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/Debug/zlibd.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/Debug/zlibd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/Release/zlib.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/Release/zlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/MinSizeRel/zlib.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/MinSizeRel/zlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";ZLIB_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\.;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/lib/RelWithDebInfo/zlib.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/bin/RelWithDebInfo/zlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zlib.pc.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zconf.h.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zlib.pc.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zconf.h.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zlib.pc.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zconf.h.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" "-BF:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp" --check-stamp-file "F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Uni Modules/Programming/301CR/301CREngine/PrettyEngine/vendor/Assimp/contrib/zlib/CMakeLists.txt;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zlib.pc.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zconf.h.cmakein;F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\adler32.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\compress.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\crc32.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\deflate.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzclose.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzlib.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzread.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzwrite.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inflate.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\infback.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inftrees.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inffast.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\trees.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\uncompr.c"  />
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zutil.c"  />
+    <ResourceCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\win32\zlib1.rc"  />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zconf.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zlib.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\crc32.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\deflate.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzguts.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inffast.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inffixed.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inflate.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inftrees.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\trees.h" />
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\ZERO_CHECK.vcxproj">
+      <Project>{35080779-B9A8-3B6D-83F4-5CC9AFB107A8}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

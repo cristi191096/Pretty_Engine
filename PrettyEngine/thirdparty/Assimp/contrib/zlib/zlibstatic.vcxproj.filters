@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8DED459-DB24-3C06-A14A-25B166755BE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0149A7F2-DDA2-347C-A1E6-4EE181A08314}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

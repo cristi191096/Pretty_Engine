@@ -1,0 +1,1856 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AMF\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AMF\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3DS\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3DS\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AC\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\ASE\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\ASE\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assbin\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\B3D\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\BVH\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Collada\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Collada\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\DXF\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\CSM\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\HMP\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Irr\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Irr\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Irr\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWO\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWO\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWO\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWO\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWS\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD2\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD3\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD5\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD5\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDC\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDL\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDL\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\NFF\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\NDO\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\OFF\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ply\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ply\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MS3D\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\COB\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderCustomData.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\XGL\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Q3D\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Raw\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\SIB\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\SMD\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\STL\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Terragen\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Unreal\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFCommon.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3MF\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3MF\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MMD\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MMD\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\StepFile\StepFileImporter.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\StepFile\StepFileGen1.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\StepFile\StepFileGen2.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\StepFile\StepFileGen3.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3DS\3DSExporter.cpp">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assbin\AssbinExporter.cpp">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assxml\AssxmlExporter.cpp">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Collada\ColladaExporter.cpp">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjExporter.cpp">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ply\PlyExporter.cpp">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXExporter.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXExportNode.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXExportProperty.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\STL\STLExporter.cpp">
+      <Filter>STL_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X\XFileExporter.cpp">
+      <Filter>X_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DExporter.cpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFExporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2Exporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3MF\D3MFExporter.cpp">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assjson\cencode.c">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assjson\json_exporter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assjson\mesh_splitter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Step\StepExporter.cpp">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AMF\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AMF\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AMF\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3DS\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3DS\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\AC\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\ASE\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\ASE\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assbin\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\B3D\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\BVH\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Collada\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Collada\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Collada\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\DXF\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\DXF\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\CSM\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\HMP\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\HMP\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\HMP\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Irr\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Irr\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Irr\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWO\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWO\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWO\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\LWS\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD2\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD2\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD2\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD3\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD3\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD5\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MD5\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDC\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDC\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDC\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDL\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDL\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MDL\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\NFF\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\NDO\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\OFF\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ogre\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\OpenGEX\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\OpenGEX\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ply\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ply\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MS3D\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\COB\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\COB\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Blender\BlenderCustomData.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCReaderGen_2x3.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\IFC\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\XGL\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXCommon.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Q3D\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Q3BSP\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Q3BSP\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Raw\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\SIB\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\SMD\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\STL\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Terragen\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Unreal\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFCommon.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3MF\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3MF\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3MF\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MMD\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MMD\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MMD\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MMD\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\MMD\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Step\STEPFile.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\StepFile\StepFileImporter.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Importer\StepFile\StepReaderGen.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3DS\3DSExporter.h">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assbin\AssbinExporter.h">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assxml\AssxmlExporter.h">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Collada\ColladaExporter.h">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Obj\ObjExporter.h">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\OpenGEX\OpenGEXExporter.h">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Ply\PlyExporter.h">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXExporter.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXExportNode.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\FBX\FBXExportProperty.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\STL\STLExporter.h">
+      <Filter>STL_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X\XFileExporter.h">
+      <Filter>X_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\X3D\X3DExporter.hpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF\glTFExporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\glTF2\glTF2Exporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\3MF\D3MFExporter.h">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assjson\cencode.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Assjson\mesh_splitter.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Step\StepExporter.h">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\irrXMLWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Defines.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{4E448DAC-BFB8-30CE-B5B6-45CDB73B02A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{9A50B367-B15A-36D1-BD53-D8D4A7F73768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{2E859105-54E6-3426-83A2-6D33275510B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{2A3312E2-CDB9-32E5-85BE-21F47DFA8DB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{F20721D0-3FAB-3408-93AF-FA2372111F54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{F6934C0C-90DF-338C-A8BA-C5F9F1504A89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8DED459-DB24-3C06-A14A-25B166755BE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{7D0ADFB3-3243-3169-9F6F-40DEE56B700A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{C25C2509-873C-3299-B7EA-F1BD5966092B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{28E5AA5D-FBC9-30C1-AE85-543AA49D635F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{424477B2-FE65-3B6F-9C57-63A7030CABD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{6037931A-FDF5-39FC-A85B-F9804724E1B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{E917978A-54DF-36AB-876B-4FAAF6F79038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{937489A6-1932-3B5A-BB71-961EE406EBD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS_EXPORTER">
+      <UniqueIdentifier>{DEF8C202-D4F2-3486-915F-E47D2B92050C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{17EA976C-B596-3CB9-9F29-E6F2B1B371CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{F0F8711C-59C8-39B9-B0AD-41FFD3E70232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{6AB35E56-E341-3525-A865-20F3E74B0836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN_EXPORTER">
+      <UniqueIdentifier>{EC1E8D64-66B2-3D3A-8C99-83F11AD9B922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML_EXPORTER">
+      <UniqueIdentifier>{59D09E22-565F-31E1-8E6D-708F3ED625A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{FDCA8F40-6D10-3045-8A6E-E1E9BF905EB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{33DE7788-C92E-337F-8B99-DDF4B14287E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{917B505D-324F-36E4-A73A-EA26A410FB0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA_EXPORTER">
+      <UniqueIdentifier>{6E67F47D-2435-3215-8888-680A4F132762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{2B3C98AF-859B-388C-9691-C23267804504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{FDEF831F-119A-3256-A27B-33E8F6CC735F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{40E2C9A4-BB7C-39B1-B284-A2835A40045C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{F22483DB-B2B4-3677-AEDB-768F240C84A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{03E07486-D3F3-3328-9CAE-884CB5B5FF16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{DB338E3B-FAB4-3DA5-8B7E-ED4883DBAD4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{A602BA26-8F09-30A3-9857-1C2F77F1462F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{CA51EC7A-5864-3094-B7BE-77932D5E2503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{9F504D84-28F2-319E-A3D8-64E84F947489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{35D2E496-31A3-39B4-80F6-520656E2DAAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{F86D7980-D356-30D8-B754-2DA6B60AABDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{D76F4E76-988C-37F8-8271-7FF8E90880F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{76750774-42A2-3C55-926F-120987607258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{561317ED-8900-3E0A-91CE-EC9CEE6C25CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{EB12726D-DFD0-36F4-AE44-5A29207E724D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{6FAD35C1-176F-35FB-8B9D-FC2B83611BC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{B2A22121-0CA0-31C0-B8E5-43CC2EE42924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ_EXPORTER">
+      <UniqueIdentifier>{86FFC0E3-669F-3DA4-8747-587E8CB64A8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{5944DEB8-D7F0-3586-BE3B-199669E02DA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{1E774758-1CDA-33B3-9011-8F4941496F5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX_EXPORTER">
+      <UniqueIdentifier>{C1E8500D-5924-3F0D-9D3A-B9A74148D82F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{0FECA01F-1D66-385D-9C71-076B84E40CD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY_EXPORTER">
+      <UniqueIdentifier>{C18B87EF-EB76-3851-9D11-9E842C2B2C54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{AEDB4992-473D-318E-A04E-4A4CCBB87DD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{8844138F-46C3-3604-A720-89788EA7EBB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{CAAE6490-BADF-3C4F-BCC7-81EA12608D3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{34C17D87-790F-3D4F-83AB-B7B531406494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{38843CD2-D4A3-3266-BC30-6FB0E308EEC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{7AEEB7E7-8A14-3CB1-86BF-D06BD3E34A46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX_EXPORTER">
+      <UniqueIdentifier>{7E62C338-4016-3EF3-B56F-C43CD3815A4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{7F53C0A0-F772-3B91-9A64-C18E983B303A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{CE94A700-3A9B-3D9C-B344-9D170D743442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{A7B100C1-F381-31D4-A000-EB674058FB25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{AFEDADA4-E0B8-37F4-BE56-ED025DBBA112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{13332B82-F62C-3262-AF92-6716AA3B34EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{CB03CB34-6331-31D9-AA56-CABBF45C6806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{5D929875-929C-3E09-BED6-B3850E3657BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL_EXPORTER">
+      <UniqueIdentifier>{8CBC5C9E-EE08-388D-933A-13F227F56537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{C6283DEF-6BE6-3A85-9C6F-4242C203F72C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{DBF38203-E2F6-32DA-A65E-8A6205A7E586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{3B04C34C-3E9B-352F-8C2C-E92E47679DEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_EXPORTER">
+      <UniqueIdentifier>{CD8C960E-D416-3ED1-AF19-E9E69B81D2C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{12468C8D-955D-352A-A253-011FD68066B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D_EXPORTER">
+      <UniqueIdentifier>{27EB4536-53FA-3F1C-BC03-91050649F39E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{9507ADFE-5436-3359-9A8F-0C1C0AA29D57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF_EXPORTER">
+      <UniqueIdentifier>{4856D6EE-278D-3507-97B9-4ABADFCD2ABE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{41421027-7CA9-3F6B-B396-7C8A5D5C8DAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF_EXPORTER">
+      <UniqueIdentifier>{D3C75864-7697-34BD-89D5-9FDEE26A9C43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{222D6EAC-46E8-37C6-A7A9-0B018718468B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSJSON_EXPORTER">
+      <UniqueIdentifier>{4411389B-A858-340D-B486-C5D74DBC4796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP">
+      <UniqueIdentifier>{9411E436-F458-3ADE-9C11-D26F67FD5978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP_EXPORTER">
+      <UniqueIdentifier>{BF63E8B2-0C35-3028-BE72-F1B5CEF58A28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{04982C46-217C-3F63-8561-6C9970C9F0C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{CAB3BC8B-9503-340F-9DC2-9F7D1F33B05F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{F5EA1EFB-F2D1-380B-AE57-41F32F7D66C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{3E020BCD-1566-323F-88B1-7DC5BD9827A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

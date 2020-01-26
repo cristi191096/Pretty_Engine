@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\contrib\gtest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\CCompilerTest.c">
+      <Filter>UnitTests\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\code\Common\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSimd.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utIOSystem.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utIOStreamBuffer.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utIssues.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utAnim.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\AssimpAPITest.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utBatchLoader.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utDefaultIOStream.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utFastAtof.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utMetadata.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\SceneDiffer.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\AbstractImportExportBase.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utTypes.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utVersion.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utProfiler.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSharedPPData.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utStringUtils.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\Common\utLineSplitter.cpp">
+      <Filter>UnitTests\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utLWSImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utLWOImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSMDImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utglTFImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utglTF2ImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utHMPImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utIFCImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utFBXImporterExporter.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utImporter.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utExporter.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ut3DImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ut3DSImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utACImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utAMFImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utASEImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utD3MFImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utQ3DImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSTLImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utXImporterExporter.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utX3DImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utDXFImporterExporter.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utPMXImporter.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utPLYImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utObjImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utObjTools.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utOpenGEXImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSIBImporter.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utBlenderIntermediate.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utBlendImportAreaLight.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utBlenderImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utBlendImportMaterials.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utBlenderWork.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utBVHImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utColladaExportCamera.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utColladaExportLight.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utColladaImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utCSMImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utB3DImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utMDCImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utAssbinImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utAssjsonImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utCOBImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utOgreImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utQ3BSPFileImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utOFFImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utNFFImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\ImportExport\utXGLImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utMaterialSystem.cpp">
+      <Filter>UnitTests\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utMatrix3x3.cpp">
+      <Filter>UnitTests\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utMatrix4x4.cpp">
+      <Filter>UnitTests\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utVector3.cpp">
+      <Filter>UnitTests\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utImproveCacheLocality.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utFixInfacingNormals.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utGenNormals.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utTriangulate.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utTextureTransform.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utRemoveRedundantMaterials.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utRemoveVCProcess.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utScaleProcess.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utJoinVertices.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utRemoveComments.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utRemoveComponent.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utVertexTriangleAdjacency.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSplitLargeMeshes.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utFindDegenerates.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utFindInvalidData.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utLimitBoneWeights.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utPretransformVertices.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utScenePreprocessor.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utTargetAnimation.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSortByPType.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utSceneCombiner.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\utGenBoundingBoxesProcess.cpp">
+      <Filter>UnitTests\PostProcess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\SceneDiffer.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\UTLogStream.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\TestIOSystem.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\unit\TestModelFactory.h">
+      <Filter>UnitTests\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni Modules\Programming\301CR\301CREngine\PrettyEngine\vendor\Assimp\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UnitTests\Compiler">
+      <UniqueIdentifier>{9C589627-FA57-3CAC-8CD2-5753471F86B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Common">
+      <UniqueIdentifier>{EB0006FF-799F-323C-B698-97556511CFB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\ImportExport">
+      <UniqueIdentifier>{6A7C01B8-0A00-3330-A122-7DB0307EE2AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Material">
+      <UniqueIdentifier>{C889276E-43CB-3393-AAFE-2D49FF7D48BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Math">
+      <UniqueIdentifier>{3DADDA2C-ED14-3B35-BF83-EE1C3372D3DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\PostProcess">
+      <UniqueIdentifier>{2BCDAC02-5D86-3F0A-A671-6C5E2CCB92F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8DED459-DB24-3C06-A14A-25B166755BE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{829F5592-AF86-3880-91C8-4D6FFE48B75B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

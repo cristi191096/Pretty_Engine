@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\OpenGL">
+      <UniqueIdentifier>{1E7D2C1D-8A08-9AE1-9319-1DD6FF23F6E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{010A8043-6D74-34BA-B6B2-E55F225C120F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor">
+      <UniqueIdentifier>{AC2EC5FA-98D0-EFD0-818B-03256DCC7621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{FBDB78FB-E77D-A3D1-D038-B725BC792A22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Audio">
+      <UniqueIdentifier>{3C3A47B3-289D-D657-D122-0F0EBD64A2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Core">
+      <UniqueIdentifier>{33B5310D-9F6A-AA02-285F-A4D99413A106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\ECS">
+      <UniqueIdentifier>{C5554784-B10D-89D1-1A15-622D06EC23C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\ECS\Components">
+      <UniqueIdentifier>{BAF55BC0-2662-17BB-EF55-AF185B813923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Events">
+      <UniqueIdentifier>{7FDF9525-EB9F-115C-B4DA-5AD9205A5638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Graphics">
+      <UniqueIdentifier>{9B4EEF7D-07DA-5C42-10EB-DF367CF5B842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Graphics\Buffers">
+      <UniqueIdentifier>{1779AABF-83B0-F256-8CBA-567AF8701950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Graphics\Cameras">
+      <UniqueIdentifier>{86DD7BDE-F214-C475-FB1E-289967D5EA6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Graphics\Shaders">
+      <UniqueIdentifier>{74DE99BD-E015-E254-E91F-467855D6084E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Layers">
+      <UniqueIdentifier>{5ACA7834-C68A-F46A-8FC5-3DE8FB443947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Maths">
+      <UniqueIdentifier>{A7AC15B4-930F-A558-3C95-DD0E28D770DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Physics">
+      <UniqueIdentifier>{6DAAD607-5978-CA0D-420C-3B342E79A672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{9F35977C-8B6C-980D-3459-7E10206F140F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Platform\OpenGL\GLContext.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLCore.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLIndexBuffer.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLInput.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLInputCodes.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLRenderer.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLShader.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLShaderResources.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLTexture2D.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLTypes.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLVertexArray.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\GLVertexBuffer.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PrettyEngine.h" />
+    <ClInclude Include="src\Types.h" />
+    <ClInclude Include="src\Utilities\AssetImporter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\Files.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\Imagery.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\EditorLayer.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\imgui_stdlib.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Audio\AudioChannel.h">
+      <Filter>engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Audio\AudioClip.h">
+      <Filter>engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Audio\AudioContext.h">
+      <Filter>engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Application.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Context.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Core.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\EntryPoint.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Layer.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\LayerStack.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Log.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Scene.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Scene2D.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Scene3D.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Core\Window.h">
+      <Filter>engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Components\AudioComponent.h">
+      <Filter>engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Components\Component.h">
+      <Filter>engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Components\Components.h">
+      <Filter>engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Components\LightComponent.h">
+      <Filter>engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Components\ModelComponent.h">
+      <Filter>engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Components\RigidbodyComponent.h">
+      <Filter>engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Components\TransformComponent.h">
+      <Filter>engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ECS\Entity.h">
+      <Filter>engine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Events\ApplicationEvent.h">
+      <Filter>engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Events\Event.h">
+      <Filter>engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Events\Input.h">
+      <Filter>engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Events\KeyEvent.h">
+      <Filter>engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Events\MouseEvent.h">
+      <Filter>engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Events\PlayerControllerEvent.h">
+      <Filter>engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Buffers\BufferLayout.h">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Buffers\IndexBuffer.h">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Buffers\VertexArray.h">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Buffers\VertexBuffer.h">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Cameras\Camera.h">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Cameras\EditorCamera.h">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Cameras\FPSCamera.h">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Cameras\StaticCamera.h">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Group.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Light.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Material.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Mesh.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Model.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Renderable.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Renderable2D.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Renderer.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Renderer2D.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Renderer3D.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Shaders\Shader.h">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Shaders\ShaderLibrary.h">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Shaders\ShaderManager.h">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Shaders\ShaderResources.h">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Sprite.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Texture.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Graphics\Texture2D.h">
+      <Filter>engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Layers\DebugLayer2D.h">
+      <Filter>engine\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Layers\DebugLayer3D.h">
+      <Filter>engine\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Layers\ImGuiLayer.h">
+      <Filter>engine\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Maths\MathsFunc.h">
+      <Filter>engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Maths\Matrix4.h">
+      <Filter>engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Maths\Quaternion.h">
+      <Filter>engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Maths\Vector2.h">
+      <Filter>engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Maths\Vector3.h">
+      <Filter>engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Maths\Vector4.h">
+      <Filter>engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Maths\maths.h">
+      <Filter>engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Physics\Body.h">
+      <Filter>engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Physics\DebugDraw.h">
+      <Filter>engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Physics\Physics.h">
+      <Filter>engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Physics\PhysicsContext.h">
+      <Filter>engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\GameApplication.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\GameLayer.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pepch.h" />
+    <ClInclude Include="src\engine\Networking\NetworkContext.h" />
+    <ClInclude Include="src\engine\Networking\Client.h" />
+    <ClInclude Include="src\Utilities\Profiler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Platform\OpenGL\GLContext.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLError.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLIndesxBuffer.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLInput.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLRenderer.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLShader.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLShaderResource.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLTexture2D.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLVertexArray.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\GLVertexBuffer.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\AssetImporter.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\Files.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\Imagery.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\EditorLayer.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\imgui_stdlib.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Audio\AudioChannel.cpp">
+      <Filter>engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Audio\AudioClip.cpp">
+      <Filter>engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Audio\AudioContext.cpp">
+      <Filter>engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\Application.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\Context.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\Layer.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\LayerStack.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\Log.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\Scene.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\Scene2D.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Core\Scene3D.cpp">
+      <Filter>engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\Components\AudioComponent.cpp">
+      <Filter>engine\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\Components\LightComponent.cpp">
+      <Filter>engine\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\Components\ModelComponent.cpp">
+      <Filter>engine\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\Components\RigidbodyComponent.cpp">
+      <Filter>engine\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\Components\TransformComponent.cpp">
+      <Filter>engine\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ECS\Entity.cpp">
+      <Filter>engine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Events\Input.cpp">
+      <Filter>engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Buffers\BufferLayout.cpp">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Buffers\IndexBuffer.cpp">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Buffers\VertexArray.cpp">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Buffers\VertexBuffer.cpp">
+      <Filter>engine\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Cameras\Camera.cpp">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Cameras\EditorCamera.cpp">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Cameras\FPSCamera.cpp">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Cameras\StaticCamera.cpp">
+      <Filter>engine\Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Group.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Light.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Material.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Mesh.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Model.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Renderable2D.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Renderer.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Renderer2D.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Renderer3D.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Shaders\Shader.cpp">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Shaders\ShaderLibrary.cpp">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Shaders\ShaderManager.cpp">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Shaders\ShaderResources.cpp">
+      <Filter>engine\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Sprite.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Texture.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Graphics\Texture2D.cpp">
+      <Filter>engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Layers\DebugLayer2D.cpp">
+      <Filter>engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Layers\DebugLayer3D.cpp">
+      <Filter>engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Layers\ImGuiBuild.cpp">
+      <Filter>engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Layers\ImGuiLayer.cpp">
+      <Filter>engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Maths\Matrix4.cpp">
+      <Filter>engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Maths\Quaternion.cpp">
+      <Filter>engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Maths\Vector2.cpp">
+      <Filter>engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Maths\Vector3.cpp">
+      <Filter>engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Maths\Vector4.cpp">
+      <Filter>engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Physics\Body.cpp">
+      <Filter>engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Physics\DebugDraw.cpp">
+      <Filter>engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Physics\PhysicsContext.cpp">
+      <Filter>engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\GameApplication.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\GameLayer.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pepch.cpp" />
+    <ClCompile Include="src\engine\Networking\NetworkContext.cpp" />
+    <ClCompile Include="src\engine\Networking\Client.cpp" />
+    <ClCompile Include="src\Utilities\Profiler.cpp" />
+  </ItemGroup>
+</Project>
